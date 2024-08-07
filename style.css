@@ -1,0 +1,44 @@
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 80%;
+        margin: auto;
+        color: #444;
+        background-color:#ccc;
+        margin-bottom: 60px;
+    }
+    
+    h1{
+        color: #061761;
+        background-color: #acafd4;
+        text-align: center; /*Alinhar o texto*/
+        font-size: 36px;
+    }
+
+    h2{
+        color:#061761;
+        background-color:#b6b6b6 ;
+        font-size: 26px;
+        border-bottom: 4px solid #061761; /*Caso não utilize cor, automaticamente ele usa a cor do h2*/
+        padding: 6px 0 6px 10px;
+        margin: 48px 0 12px 0;
+    }
+
+    ul{
+        padding-left: 0;
+    }
+
+    li{
+        list-style-position: inside;
+    }
+
+    .descricao{
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
